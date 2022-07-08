@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-image: linear-gradient(to right, #434343 0%, black 100%);
+      }
+
+      img {
+        border-radius: 100%;
+        margin: 10px;
+      }
+      /* Float four columns side by side */
+      .column {
+        float: left;
+        width: 25%;
+        padding: 0 10px;
+        cursor: pointer;
+      }
+
+      /* Remove extra left and right margins, due to padding */
+      .row {
+        margin: 0 -5px;
+      }
+
+      /* Clear floats after the columns */
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+
+      /* Responsive columns */
+      @media screen and (max-width: 600px) {
+        .column {
+          width: 100%;
+          display: block;
+          margin-bottom: 20px;
+        }
+      }
+
+      /* Style the counter cards */
+      .card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        padding: 16px;
+        margin: 25px;
+        text-align: center;
+        background-color: #f1f1f1;
+      }
+      .button5 {
+        background-color: white;
+        color: black;
+        border: 2px solid #555555;
+        border-radius: 12px;
+        padding: 10px 24px;
+      }
+
+      .button5:hover {
+        background-color: #555555;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 style="text-align: center; color: white">Select Your Cities</h1>
+
+    <div class="row">
+      <div class="column">
+        <div class="card">
+          <div class="card-body">
+            <img src="images/bengluru.jpg" width="200" height="200" />
+
+            <div class="d-grid gap-2">
+              <input class="button5" type="submit" value="Bengluru" onclick="location.href='index4.html'" value='click here'>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="card">
+          <div class="card-body">
+            <img src="images/mumbai.jpg" width="200" height="200" />
+            <div class="d-grid gap-2">
+                <input class="button5" type="submit" value="Mumbai" onclick="location.href='index4.html'" value='click here'>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="card">
+          <div class="card-body">
+            <img
+              src="images/charminar-hyderabad-india-view-icon-builiding-42242588.jpg"
+              width="200"
+              height="200"
+            />
+            <div class="d-grid gap-2">
+                <input class="button5" type="submit" value="Hydrabad" onclick="location.href='index4.html'" value='click here'>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="card">
+          <div class="card-body">
+            <img
+              src="images/photo-1587474260584-136574528ed5.jpg"
+              width="200"
+              height="200"
+            />
+            <div class="d-grid gap-2">
+                <input class="button5" type="submit" value="Delhi" onclick="location.href='index4.html'" value='click here'>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="card">
+          <div class="card-body">
+            <img src="images/download.jpg" width="200" height="200" />
+            <div class="d-grid gap-2">
+                <input class="button5" type="submit" value="chandigarh" onclick="location.href='index4.html'" value='click here'>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="column">
+        <div class="card">
+          <div class="card-body">
+            <img src="images/klkta.jpg" width="200" height="200" />
+            <div class="d-grid gap-2">
+                <input class="button5" type="submit" value="Kolkata" onclick="location.href='index4.html'" value='click here'>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="column">
+        <div class="card">
+          <div class="card-body">
+            <img src="images/pune.jpg" width="200" height="200" />
+            <div class="d-grid gap-2">
+                <input class="button5" type="submit" value="Pune" onclick="location.href='index4.html'" value='click here'>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="card">
+          <div class="card-body">
+            <img src="images/chennai.jpg" width="200" height="200" />
+            <div class="d-grid gap-2">
+                <input class="button5" type="submit" value="Chennai" onclick="location.href='index4.html'" value='click here'>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
